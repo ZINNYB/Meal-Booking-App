@@ -1,0 +1,201 @@
+body{
+font: 15px/1.5 ;   
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+ 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 0px;
+margin: 0px;
+background-color: #f4f4f4;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*  general styles */
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
+.lighter-blue{
+    background: #0080ff;
+    color: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0 10px 0;
+}
+/* header */
+header{
+    background-color: #05164d;
+    color: #f4f4f4;
+    padding-top: 20px;
+    min-height: 70px;
+    text-align: center;
+}
+header a{
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase; 
+    cursor: pointer;
+}
+header ul{
+    list-style-type: none;
+    
+}
+header li{
+    display: inline-block;
+    padding: 5px 20px  0px 20px;
+}
+header .logo{
+    float: left;
+    display: inline-block;
+    padding-top: 5px;
+    font-weight: bold;
+}
+header .logo h1{
+    margin: 0px;
+  
+}
+header nav{
+    float: right;
+}
+ #logo-first-word, a.current{
+color: #da3743;
+}
+header a:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+    min-height: 400px;
+    background: url("../img/showcase.jpg") no-repeat;
+    text-align: center;
+    color: white; 
+    background-size: 100% -100%;
+    background-position: center;
+}
+#showcase h1{
+    padding-top: 100px;
+    font-size: 30px;
+}
+/*  process style */
+#business-process{
+padding: 15px;
+}
+#business-process h2{
+text-align: center;
+color: #05164d;
+}
+
+#processing-case {
+   display: flex;
+    justify-content: space-around;
+
+}  
+
+#processing-case .process-case {
+    width: 30%;
+    height: 10%;
+    padding-top: 5%;
+}
+
+
+
+#processing-case .process-case img{
+    width: 100%;
+    height: 10%;
+}
+.process-case h3{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    #processing-case {
+       width: 100%;
+       display: inline-block;
+     } 
+     
+#processing-case .process-case {
+    width: 100%;
+    height: 10%;
+    padding-top: 5%;
+} 
+    
+}
+/*  why us styles */
+
+
+.container h3{
+    padding-bottom: 15px;
+    color: #05164d;
+    text-align: center;
+}
+#why-us-img{
+    width: 100%;
+}
+
+em {
+    color: #da3743;
+}
+
+#why-us-case p  {
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+padding-bottom: 15px;
+}
+/* about styles */
+h1#about-header{
+text-align: center;
+color: #da3743;
+padding-bottom: 10px;
+}
+aside#side-bar{
+    width: 30%;
+   float:right;
+   margin-top: 15px;
+}
+#main-col{
+    width: 65%;
+    float: left;
+    padding-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  
+    aside#side-bar{
+        width: 100%;
+    }
+    #main-col{
+        width: 100%;
+       
+    }
+}
+
+/*  footer */
+#footer{
+    display: flex;
+    align-content: flex-end;
+
+}
+footer{
+   
+    background-color: #05164d;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer li{
+    display: inline-block;
+    padding: 5px 20px  0px 20px;
+}
