@@ -15,7 +15,7 @@ background-color: #f4f4f4;
     width: 80%;
     overflow: hidden;
     margin: auto;
-}
+} 
 h1, h2, h3, h4, h5, h6{
     text-transform: uppercase;
 }
@@ -86,13 +86,14 @@ text-align: center;
 color: #05164d;
 }
 
-#processing-case {
+.processing-case {
    display: flex;
     justify-content: space-around;
+  
 
 }  
 
-#processing-case .process-case {
+.processing-case .process-case {
     width: 30%;
     height: 10%;
     padding-top: 5%;
@@ -100,7 +101,7 @@ color: #05164d;
 
 
 
-#processing-case .process-case img{
+.processing-case .process-case img{
     width: 100%;
     height: 10%;
 }
@@ -110,18 +111,27 @@ color: #05164d;
 }
 
 @media screen and (max-width: 600px) {
-    #processing-case {
+    .processing-case {
        width: 100%;
        display: inline-block;
      } 
      
-#processing-case .process-case {
+.processing-case .process-case {
     width: 100%;
     height: 10%;
     padding-top: 5%;
 } 
     
 }
+
+/*  home  styles */
+.main-order-case{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    
+}
+
 /*  why us styles */
 
 
