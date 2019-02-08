@@ -210,7 +210,9 @@ input[type="submit"]{
     background: #da3743;
     color: white;
 }
- /*  general styles */
+<<<<<<< HEAD
+  /*  general styles */
+>>>>>>> adjusted spacing in the stylesheet and the script file
     .container{
         width: 80%;
         overflow: hidden;
