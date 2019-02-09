@@ -263,6 +263,7 @@ content: attr(title);
     background: #05164d ;
     color: white;
 }
+
 @media screen and (max-width: 700px) {
     .container.form-case {
         width: 90%;
@@ -385,6 +386,20 @@ span#form-cancel-btn{
 }
 #data .admin-data-container{
     margin-top: 15px;
+}
+#user-logs input{
+border:  2px solid gray;
+
+}
+#user-logs ::placeholder{
+    color: black;
+}
+div#acc-info {
+    margin-top: 15px;
+}
+/* === profile ===*/
+#profile-main{
+    text-align: center;
 }
     /* =====footer ====*/
     #footer{
