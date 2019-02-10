@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 html, body{
     width: 100%;
     height: 100%;
@@ -96,7 +97,6 @@ color: #05164d;
     justify-content: space-around;
 
 }  
-
 #processing-case .process-case {
     width: 30%;
     height: 10%;
@@ -126,8 +126,6 @@ color: #05164d;
     
 }
 /*  why us styles */
-
-
 .container h3{
     padding-bottom: 15px;
     color: #05164d;
@@ -163,6 +161,7 @@ footer li{
     padding: 5px 20px  0px 20px;
 }
 
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
 html, body{
     width: 100%;
     height: 100%;
@@ -206,6 +205,7 @@ body{
           color: #fff;
           text-overflow: ellipsis;
       }
+<<<<<<< HEAD
 input[type="submit"]{
     background: #da3743;
     color: white;
@@ -213,6 +213,8 @@ input[type="submit"]{
 <<<<<<< HEAD
   /*  general styles */
 >>>>>>> adjusted spacing in the stylesheet and the script file
+    /*  general styles */
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     .container{
         width: 80%;
         overflow: hidden;
@@ -233,6 +235,8 @@ input[type="submit"]{
         border-bottom: 3px solid #627295;
         text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
     }
+<<<<<<< HEAD
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     /* header */
     header{
         background-color: #05164d;
@@ -245,11 +249,15 @@ input[type="submit"]{
         color: #f4f4f4;
         text-decoration: none;
         font-size: 16px;
-        text-transform: uppercase;
+<<<<<<< HEAD
+        text-transform: uppercase; 
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
         cursor: pointer;
     }
     header ul{
         list-style-type: none;
+<<<<<<< HEAD
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     }
     header li{
         display: inline-block;
@@ -263,6 +271,8 @@ input[type="submit"]{
     }
     header .logo h1{
         margin: 0px;
+<<<<<<< HEAD
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     }
     header nav{
         float: right;
@@ -274,12 +284,16 @@ input[type="submit"]{
         color: #fff;
         font-weight: bold;
     }
+<<<<<<< HEAD
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     /* showcase */
     #showcase{
         min-height: 400px;
         background: url("../img/showcase.jpg") no-repeat;
         text-align: center;
-        color: white;
+<<<<<<< HEAD
+        color: white; 
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
         background-size: 100% -100%;
         background-position: center;
     }
@@ -287,8 +301,8 @@ input[type="submit"]{
         padding-top: 100px;
         font-size: 30px;
     }
-
     /*  process style */
+<<<<<<< HEAD
         #business-process{
         padding: 15px;
         } 
@@ -300,11 +314,29 @@ input[type="submit"]{
        display: flex;
         justify-content: space-around;
     }
+    #business-process{
+    padding: 15px;
+    }
+    
+    #business-process h2{
+    text-align: center;
+    color: #05164d;
+    }
+    
+    #processing-case {
+       display: flex;
+        justify-content: space-around;
+    
+    }  
+    
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     #processing-case .process-case {
         width: 30%;
         height: 10%;
         padding-top: 5%;
     }
+<<<<<<< HEAD
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     #processing-case .process-case img{
         width: 100%;
         height: 10%;
@@ -313,18 +345,24 @@ input[type="submit"]{
       text-align: center;
       padding-bottom: 15px;
     }
+<<<<<<< HEAD    
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     @media screen and (max-width: 600px) {
         #processing-case {
            width: 100%;
            display: inline-block;
+<<<<<<< HEAD
          }
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     #processing-case .process-case {
         width: 100%;
         height: 10%;
         padding-top: 5%;
+<<<<<<< HEAD
     }
     }
     /*  why us styles */
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     .container h3{
         padding-bottom: 15px;
         color: #05164d;
@@ -333,9 +371,11 @@ input[type="submit"]{
     #why-us-img{
         width: 100%;
     }
+<<<<<<< HEAD
     em {
         color: #da3743;
     }
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     #why-us-case p  {
     display: table-cell;
     vertical-align: middle;
@@ -359,13 +399,17 @@ input[type="submit"]{
         padding-top: 20px;
     }
     @media screen and (max-width: 600px) {
+<<<<<<< HEAD
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
         aside#side-bar{
             width: 100%;
         }
         #main-col{
             width: 100%;
+<<<<<<< HEAD
+        }    
         }
-    }
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
 /* ====== forms ====== */
 section.form-main {
     position: relative;
@@ -377,9 +421,9 @@ section.form-main {
     height: 100%;
     width: 40%;
     background-color: rgba(0, 0, 0, .5)
-
 }
-
+<<<<<<< HEAD
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
 @media screen and (max-width: 700px) {
     .container.form-case {
         width: 90%;
@@ -389,6 +433,8 @@ section.form-main {
     }
 }
 
+<<<<<<< HEAD
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
 span#form-cancel-btn{
     margin-left: 80%;
     width: 100%;
@@ -397,6 +443,7 @@ span#form-cancel-btn{
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
   }
+<<<<<<< HEAD
   @-webkit-keyframes animatezoom {
     from {-webkit-transform: scale(0)}
     to {-webkit-transform: scale(1)}
@@ -405,18 +452,31 @@ span#form-cancel-btn{
     from {transform: scale(0)}
     to {transform: scale(1)}
   }
-    /*  footer */
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }  
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
+  /*  footer */
     #footer{
         display: flex;
         align-content: flex-end;
+<<<<<<< HEAD
     }
-    footer{
+footer{ 
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
         background-color: #05164d;
         color: white;
         padding: 20px;
         width: 100%;
         text-align: center;
     }
+<<<<<<< HEAD    
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
     footer a{
         text-decoration: none;
         color: white;
@@ -425,4 +485,6 @@ span#form-cancel-btn{
         display: inline-block;
         padding: 5px 20px  0px 20px;
     }
->>>>>>>  a signup page for this application, to enable users authenticate their usage
+<<<<<<< HEAD
+>>>>>>>  a signup page for this application, to enable users authenticate their usage    
+>>>>>>> f92b250cacdd90c24c128085c45a3410dc7eff09
