@@ -36,4 +36,30 @@ for (let i = 0; i < mealCase.length; i++) {
 }
 
 window.addEventListener('click', closeForm);
-btn. addEventListener("click",  closeBtn);
+if (btn) {
+  btn. addEventListener("click",  closeBtn);
+}
+
+
+/* Modal Box */
+const modalBox = function(modalBox, btnModalBoxOpen, btnModalBoxClose) {
+
+  if (btnModalBoxOpen) {
+    btnModalBoxOpen.addEventListener('click', () => {
+      modalBox.style.display = 'block';
+    });
+  }
+
+  if (btnModalBoxClose) {
+    btnModalBoxClose.addEventListener('click', () => {
+      if (btnModalBoxClose && modalBox) {
+        modalBox.style.display = 'none';
+      }
+    });
+  }
+}
+
+const loginFormWrapper = document.getElementById('login-form-wrapper');
+const loginOpen = document.getElementById('login-open');
+const loginClose = document.getElementById('login-close');
+modalBox(loginFormWrapper, loginOpen, loginClose);
