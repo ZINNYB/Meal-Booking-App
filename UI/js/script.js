@@ -2,16 +2,22 @@ const form = document.getElementById('details-case');
 const btn = document.getElementById('form-cancel-btn');
 const mealCase = document.querySelectorAll('.process-case');
 
+
+const formCase =document.getElementsByClassName('allforms-bg')[0];
+// const mealCase = document.getElementsByClassName('process-case')[0];
+// const form = document.getElementById('details-case');
+
+// const btn = document.getElementById('form-cancel-btn');
+// const mealCase = document.querySelectorAll('.process-case')
+
+
 for (let i = 0; i < mealCase.length; i++) {
     mealCase[i].addEventListener('click', ()=>{
     form.style.display='block';});
 }
- 
-const formCase =document.getElementsByClassName('allforms-bg')[0];
-const mealCase = document.getElementsByClassName('process-case')[0];
 
 const closeBtn =  ()=>{
-return form.style.display='none'; 
+	return form.style.display='none'; 
 }
 
 const closeForm = (event) => {
@@ -21,14 +27,9 @@ const closeForm = (event) => {
 }
 const foodInfo = (event)=>{
     if( event.target === mealCase )
-return formCase.style.display='btn';
+	return formCase.style.display = 'btn';
 }
 
-
-const form = document.getElementById('details-case');
-
-const btn = document.getElementById('form-cancel-btn');
-const mealCase = document.querySelectorAll('.process-case')
 for (let i = 0; i < mealCase.length; i++) {
     mealCase[i].addEventListener('click', ()=>{
         form.style.display='block'; });

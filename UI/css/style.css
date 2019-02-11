@@ -243,6 +243,19 @@ input[type="submit"]{
         width: 100%;
        
     }
+    /* === menu details === */
+
+    #details-case{
+        display: none;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 5px;
+        width: 100%; /* Full width */
+        height: 100%;
+        text-align: center;
+    }
+    
 /* ====== forms ====== */
 section.form-main {
     position: relative;
@@ -253,7 +266,8 @@ section.form-main {
 .container.form-case {
     height: 100%;
     width: 40%;
-    background-color: rgba(0, 0, 0, .5)
+    background-color: #05164d;
+    opacity: 0.85;
 
 }
 #form-cancel-btn button:hover{
