@@ -17,7 +17,7 @@
             <a href="#" class="logo"> <span id="logo-first-word"> LIZLO</span> MEALS</a> 
             <ul>
                 <li> <a href="about.html"> About</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a id="login-open" href="#login">Login</a></li>
             </ul>
         </div>
     </header>
@@ -65,6 +65,45 @@
             </div>
         </div>
     </section>
+
+    <div id="login-form-wrapper" class="modal-box">  
+          <div class="modal-box-animate">
+            <div class="modal-box-container">
+                <section class="form-wrapper">
+                    <form id="login-form" method="POST" action="home.html" class="login-form">
+                        <div class="container text-center">
+                            <span id="login-close" class="btn-primary" type="button">Close</span>
+                          </div>
+                        <br>
+                        <h2 class="section-heading text-center">Login</h2>
+                        
+                        <div class="form-fields">
+                            <label>Email</label><br>
+                            <input type="email" name="email">
+                        </div>
+                        <div class="form-fields">
+                            <label>Password</label><br>
+                            <input type="password" name="password">
+                        </div>
+                        <div class="form-fields btn-submit-wrapper">
+                            <label>
+                                <small>Remember Login</small>
+                                <input type="checkbox" name="rememberLogin">
+                            </label>
+                        </div>
+                        <div class="form-fields btn-submit-wrapper">
+                            <input id="btn-login" class="btn-primary btn-login" type="submit" value="Login">
+                        </div>
+                    </form>
+                    <div class="text-center">
+                        <a href="pages/password-reset.html"><small>Lost Password?</small></a>
+                        |
+                        <a href="pages/sign-up.html"><small>Sign Up</small></a>
+                    </div>      
+                </section>
+            </div>
+        </div>
+    </div>
    
     <footer>
         <div >
@@ -77,7 +116,7 @@
             <h3><span id="logo-first-word"> lizlo</span> meals</h3>
             <span> copy write &#169 2019. all rights reserved.</span>
         </div>
-    
+    <script src="js/script.js"></script>
     </footer>
       </body>
 </html>

@@ -64,6 +64,83 @@ header a:hover{
     font-weight: bold;
 }
 
+/* -------------------------------------------------------
+  MODAL BOX
+-------------------------------------------------------- */
+.modal-box {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+  padding: 15px;
+}
+.modal-box-content {
+  background-color: #05164d;
+  margin: auto;
+  border: 1px solid #888;
+}
+#modal-box-content-desc {
+  max-width: 640px;
+  margin: auto;
+  border: 0px;
+  padding: 1rem;
+  background-color: #E44D26;
+  color: #fff;
+  opacity: 0.8;
+}
+.btn-modal-box-close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.btn-modal-box-close:hover,
+.btn-modal-box-close:focus {
+  color: red;
+  cursor: pointer;
+}
+.modal-box-animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+} 
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+@media screen and (max-width: 300px) {
+  .btn-modal-box-close {
+     width: 100%;
+  }
+}
+/* -------------------------------------------------------
+  LOGIN Modal Box
+-------------------------------------------------------- */
+#login-form {
+    color: #fff;
+}
+#login-form #login-close {
+    background-color: #da3743;
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+}
 /* showcase */
 #showcase{
     min-height: 400px;
