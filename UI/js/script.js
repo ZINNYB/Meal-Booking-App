@@ -7,10 +7,6 @@ for (let i = 0; i < mealCase.length; i++) {
     form.style.display='block';});
 }
  
-const closeBtn =  ()=>{
-    form.style.display='none'; 
-}
-
 const formCase =document.getElementsByClassName('allforms-bg')[0];
 const mealCase = document.getElementsByClassName('process-case')[0];
 
@@ -26,6 +22,16 @@ const closeForm = (event) => {
 const foodInfo = (event)=>{
     if( event.target === mealCase )
 return formCase.style.display='btn';
+}
+
+
+const form = document.getElementById('details-case');
+
+const btn = document.getElementById('form-cancel-btn');
+const mealCase = document.querySelectorAll('.process-case')
+for (let i = 0; i < mealCase.length; i++) {
+    mealCase[i].addEventListener('click', ()=>{
+        form.style.display='block'; });
 }
 
 window.addEventListener('click', closeForm);
