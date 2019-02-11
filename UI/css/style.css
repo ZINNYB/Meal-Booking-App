@@ -2,6 +2,7 @@ html, body{
     width: 100%;
     height: 100%;
 }
+
 body{
     font: 15px/1.5 ;   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
@@ -9,44 +10,45 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: #f4f4f4;
-    }
+}
 
     *{
-        padding: 0px;
-        margin: 0px;
+    padding: 0px;
+    margin: 0px;
     }
-    input{
-        display: block;
-       margin: 15px auto;
-       color: white;
-       padding: 20px;
-       font-size: 14px;
-        border: 1px solid #fff;
-       transition: all 0.3s ease;
-       border-radius: 5px;
-       -moz-border-radius: 5px;
-          font-weight: 400;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          width: 70%;
-          box-sizing: border-box;
-          text-align: center;
-          background: transparent;
-          outline: none;
-          -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-          font-family: 'Raleway', sans-serif;
-      }
-      ::placeholder{
-          color: #fff;
-          text-overflow: ellipsis;
-      }
-    
+input{
+    display: block;
+    margin: 15px auto;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      width: 70%;
+      box-sizing: border-box;
+      text-align: center;
+      background: transparent;
+      outline: none;
+      -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+      font-family: 'Raleway', sans-serif;
+}
+::placeholder{
+  color: #fff;
+  text-overflow: ellipsis;
+}
+
 input[type="submit"]{
     background: #da3743 ;
     color: white;
 }
     
+
     /*  general styles */
     .container{
         width: 80%;
@@ -69,7 +71,6 @@ input[type="submit"]{
         text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
     }
     
-
 
     /* header */
     header{
@@ -107,7 +108,7 @@ input[type="submit"]{
     header nav{
         float: right;
     }
-      a.current{
+     #logo-first-word, a.current{
     color: #da3743;
     }
     header a:hover{
@@ -143,10 +144,9 @@ input[type="submit"]{
     .processing-case {
        display: flex;
         justify-content: space-around;
-    
     }  
     
-    .processing-case .process-case {
+    #processing-case .process-case {
         width: 30%;
         height: 10%;
         padding-top: 5%;
@@ -165,23 +165,33 @@ input[type="submit"]{
     
     @media screen and (max-width: 600px) {
         .processing-case {
+=======
+        #processing-case {
+>>>>>>> ft-about-163794838
            width: 100%;
            display: inline-block;
          } 
          
+<<<<<<< HEAD
     .processing-case .process-case {
+=======
+    #processing-case .process-case {
+>>>>>>> ft-about-163794838
         width: 100%;
         height: 10%;
         padding-top: 5%;
     } 
         
     }
+<<<<<<< HEAD
    #main-order-case .process-case:hover {
     transition: all .2s ease-in-out;
      transform: scale(1.0); 
      border: 2px solid #da3743;
      content: attr(title);
     }
+=======
+>>>>>>> ft-about-163794838
     /*  why us styles */
     
     
@@ -230,6 +240,7 @@ input[type="submit"]{
            
         }
     }
+<<<<<<< HEAD
     /* ====home===== */
     #main-order-case{
         flex-flow: wrap;
@@ -256,6 +267,7 @@ input[type="submit"]{
         text-align: center;
     }
     
+
 /* ====== forms ====== */
 section.form-main {
     position: relative;
@@ -265,11 +277,8 @@ section.form-main {
 
 .container.form-case {
     height: 100%;
-    width: 40%;
-    background-color: #05164d;
-    color: #fff;
-    opacity: 0.85;
-
+    width: 50%;
+    background-color: #da37;
 }
 #form-cancel-btn button:hover{
 content: attr(title);
@@ -278,7 +287,6 @@ content: attr(title);
     background: #05164d ;
     color: white;
 }
-
 @media screen and (max-width: 700px) {
     .container.form-case {
         width: 90%;
@@ -307,116 +315,12 @@ span#form-cancel-btn{
     from {transform: scale(0)} 
     to {transform: scale(1)}
   }
-  /* ===admin === */
-
-  #side-menu{
-      width: 20%;
-      height: 100%;
-      background-color: #0080ff;
-      color: #f4f4f4;
-      float: left;
-      text-align: center;
-  }
-  #side-menu ul{
-      margin-top: 40%;
-      list-style-type: none;
-      
-  }
-  #side-menu li{
-      padding: 10px;
-      text-transform: uppercase;
-  }
-  #side-menu a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    font-weight: bold;
-
-  }
-  .table{
-    justify-content: center;
-    margin-top: 1em;
-    
-    }
-    table.table { 
-        
-        border-radius: 6px;
-        border: 1px solid gray;
-        box-shadow: 0 8px 6px -6px gray;
-        margin-left: 10px;
-     }
-    th{
-        background-image: linear-gradient(260deg, gray 0%, #05164d 100%); 
-        color: white;
-        width: 300px;
-        table-layout: fixed;
-    }
-    
-    .table th, .table td { 
-      text-align: left; 
-      padding: 1em;
-      font-size: 17px;
-      font-weight: 400;
-    }
-    
-    .table tr { 
-      border-bottom: 1px solid #00ADB5;
-    }
-    .offfice-title{
-        text-transform: uppercase;
-        font-weight: bold;
-    }
-    
-    
-    @media screen and (max-width: 800px) {
-      tr { 
-        display: flex; 
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: 0.5em 0;
-        border: 1px solid rgba(3,3,3,0.2);
-      }
-      td, th {
-        flex: 1 1 150px;
-        border: 0.5px solid rgba(3,3,3,0.2);
-      }
-    
-    }
-    button#admin-btn {
-        margin-top: 15px;
-    }
-  #data{
-      width: 80%;
-      height: 100%;
-      float:right;
-      color: black;
-      background-color: #f4f4f4;
-      text-align: center;
-  }
-  #avata{
-    width: 8em;
-    height: 7em;
-    border-radius: 100%;
-   
-}
-#data .admin-data-container{
-    margin-top: 15px;
-}
-#user-logs input{
-border:  2px solid gray;
-
-}
-#user-logs ::placeholder{
-    color: black;
-}
-div#acc-info {
-    margin-top: 15px;
-}
-/* === profile ===*/
-#profile-main{
-    text-align: center;
-}
+  
     /* =====footer ====*/
+=======
+    
+    /*  footer */
+>>>>>>> ft-about-163794838
     #footer{
         display: flex;
         align-content: flex-end;
