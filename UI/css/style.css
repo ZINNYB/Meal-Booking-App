@@ -1,6 +1,5 @@
 html, body{
     width: 100%;
-    height: 100%;
 }
 body{
     font: 15px/1.5 ;   
@@ -15,11 +14,17 @@ body{
         padding: 0px;
         margin: 0px;
     }
+    .main{
+      min-height:100%;
+      padding-bottom: 100px;
+      }
+    
+
     input{
         display: block;
        margin: 15px auto;
        color: white;
-       padding: 20px;
+       padding: 12px;
        font-size: 14px;
         border: 1px solid #fff;
        transition: all 0.3s ease;
@@ -28,7 +33,7 @@ body{
           font-weight: 400;
           text-transform: uppercase;
           letter-spacing: 1px;
-          width: 70%;
+          width: 50%;
           box-sizing: border-box;
           text-align: center;
           background: transparent;
@@ -72,48 +77,112 @@ input[type="submit"]{
 
 
     /* header */
-    header{
-        background-color: #05164d;
-        color: #f4f4f4;
-        padding-top: 20px;
-        min-height: 70px;
+    
+
+    .navbar{
+    font-size: 18px;
+      background: #05164d;
+    /* background-image: url('../IMAGES/homebg3\ \(1\).jpg'); */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    z-index: 1001;
+  }
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links, .logo {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .main-nav li {
         text-align: center;
     }
-    header a{
-        color: #f4f4f4;
-        text-decoration: none;
-        font-size: 16px;
-        text-transform: uppercase; 
-        cursor: pointer;
+}
+
+.main-nav li {
+    text-align: left;
+    margin: 15px auto;
+    padding-left: 12px;
+}
+
+.main-nav li a {
+    text-align: center;
+}
+
+.main-nav li:hover {
+    font-weight: bold;
+}
+
+    .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
     }
-    header ul{
-        list-style-type: none;
-        
-    }
-    header li{
-        display: inline-block;
-        padding: 5px 20px  0px 20px;
-    }
-    header .logo{
-        float: left;
-        display: inline-block;
-        padding-top: 5px;
-        font-weight: bold;
-    }
-    header .logo h1{
-        margin: 0px;
-      
-    }
-    header nav{
-        float: right;
-    }
-      a.current{
+
+    
+    .current{
     color: #da3743;
     }
-    header a:hover{
-        color: #fff;
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+    .logo{
+        color: #da3743;
         font-weight: bold;
     }
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+        
+    }
+  
+}
     
     /* showcase */
     #showcase{
@@ -247,12 +316,11 @@ input[type="submit"]{
 
     #details-case{
         display: none;
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
+        position: fixed; 
+        z-index: 1; 
         left: 0;
         top: 5px;
-        width: 100%; /* Full width */
-        height: 100%;
+        width: 80%; 
         text-align: center;
     }
 /* ====== forms ====== */
@@ -310,8 +378,7 @@ section.form-main {
 .modal-box-animate {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
-}
-@-webkit-keyframes animatezoom {
+}@-webkit-keyframes animatezoom {
   from {-webkit-transform: scale(0)} 
   to {-webkit-transform: scale(1)}
 } 
@@ -412,8 +479,10 @@ span#form-cancel-btn{
     font-weight: bold;
 
   }
+  .table-case{
+      overflow-x: auto;
+  }
   .table{
-    justify-content: center;
     margin-top: 1em;
     
     }
@@ -422,13 +491,16 @@ span#form-cancel-btn{
         border-radius: 6px;
         border: 1px solid gray;
         box-shadow: 0 8px 6px -6px gray;
-        margin-left: 10px;
+        /*margin-left: 10px;*/
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
      }
     th{
         background-image: linear-gradient(260deg, gray 0%, #05164d 100%); 
         color: white;
         width: 300px;
-        table-layout: fixed;
+        /*table-layout: fixed;*/
     }
     
     .table th, .table td { 
@@ -438,29 +510,13 @@ span#form-cancel-btn{
       font-weight: 400;
     }
     
-    .table tr { 
-      border-bottom: 1px solid #00ADB5;
-    }
     .offfice-title{
         text-transform: uppercase;
         font-weight: bold;
     }
     
     
-    @media screen and (max-width: 800px) {
-      tr { 
-        display: flex; 
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: 0.5em 0;
-        border: 1px solid rgba(3,3,3,0.2);
-      }
-      td, th {
-        flex: 1 1 150px;
-        border: 0.5px solid rgba(3,3,3,0.2);
-      }
-    
-    }
+   
     button#admin-btn {
         margin-top: 15px;
     }
@@ -491,23 +547,50 @@ border:  2px solid gray;
 div#acc-info {
     margin-top: 15px;
 }
+
+
+ @media screen and (max-width: 360px), (min-device-width:900px) and (max-device-width:1024px) {
+    table{
+        width: 60%;
+    }
+    table thead, tbody, th, td, tr{
+        display: block;
+      }
+    
+      tr { 
+       
+        border: 1px solid rgba(3,3,3,0.2);
+      }
+      td {
+        border: none;
+        border-bottom: 0.5px solid rgba(3,3,3,0.2);
+      }
+      td:before{
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+      }
+      #data{
+      width: 100%;
+    }
+     #side-menu{
+      width: 100%;
+    }
+    
+    }
 /* === profile ===*/
 #profile-main{
     text-align: center;
 }
     /* =====footer ====*/
-    #footer{
-        display: flex;
-        align-content: flex-end;
-    
-    }
+   
     footer{
        
         background-color: #05164d;
         color: white;
         padding: 20px;
-        width: 100%;
         text-align: center;
+       
     }
     
     footer a{

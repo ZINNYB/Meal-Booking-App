@@ -12,17 +12,27 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <a href="#" class="logo"> <span id="logo-first-word"> LIZLO</span> MEALS</a> 
-            <ul>
-                 <li><a href="home.html" class="current">Home</a></li>
-                <li> <a href="about.html"> About</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="profile.html">My profile</a></li>
-                <li><a href="admin.html">Admin</a></li>
-            </ul>
+        <div>
+            <nav class="navbar">
+                <span class="navbar-toggle js-navbar-toggle">
+                    <img   src="./img/menu.png" class="fas fa-bars"> 
+                </span>
+                <a href="home.html" class="logo"><span id="logo-first-word"> LIZLO</span></a>
+
+                <ul class="main-nav js-menu" >
+                   
+                       
+                    <li><a href="home.html" class="nav-links ">Home</a></li>
+                        
+                    <li> <a href="about.html" class="nav-links ">About</a> </li>
+                    <li><a href="signup.html" class="nav-links">Sign up</a></li> 
+                    <li><a href="profile.html" class="current nav-links current">profile</a></li>
+                    <li> <a href="index.html" class="nav-links">Logout</a></li>
+                    <li> <a href="Admin.html" class="nav-links">Admin</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
+    </header>   
        <section id="business-process">
         <h2>menu for 4th febrauary</h2>
         <div class="container  processing-case" id="main-order-case">
@@ -75,9 +85,12 @@
                                            </div> 
                                   </div>
                               </section> 
+                              <div id="login-form-wrapper" class="modal-box">  
+                                <div class="modal-box-animate">
+                                  <div class="modal-box-container">
                               <section class="form-main " id="details-case">
-                                <div class="allforms-bg" animations id="menu-detail-case">
-                                    <span id="form-cancel-btn">
+                                <!-- <div class="allforms-bg" animations id="menu-detail-case"> -->
+                                    <!-- <span id="form-cancel-btn"> -->
                                         <button>&times;</button>
                                     </span>
                                     </div>

@@ -7,24 +7,33 @@
     <meta name="describtion " content="online meal booking site ">
     <meta name="keyword" content="Lizlo Meals, building app"> 
     <meta name="author" content="lizzyb">
-    <title>LIZLO meal booking online | welcome</title>
+    <title>LIZLO meal booking online | profile</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <a href="#" class="logo"> <span id="logo-first-word"> LIZLO</span> MEALS</a> 
-            <ul>
-                 <li><a href="home.html" >Home</a></li>
-                <li> <a href="about.html"> About</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="profile.html" class="current">My profile</a></li>
-                <li><a href="admin.html" >Admin</a></li>
-            </ul>
+        <div>
+            <nav class="navbar">
+                <span class="navbar-toggle js-navbar-toggle">
+                    <img   src="./img/menu.png" class="fas fa-bars"> 
+                </span>
+                <a href="home.html" class="logo"><span id="logo-first-word"> LIZLO</span></a>
+
+                <ul class="main-nav js-menu" >
+                   
+                       
+                    <li><a href="home.html" class="nav-links ">Home</a></li>
+                        
+                    <li> <a href="about.html" class="nav-links ">About</a> </li>
+                    <li><a href="signup.html" class="nav-links">Sign up</a></li> 
+                    <li><a href="profile.html" class="current nav-links current">profile</a></li>
+                    <li> <a href="index.html" class="nav-links">Logout</a></li>
+                    <li> <a href="Admin.html" class="nav-links">Admin</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
-      
-      
+    </header>   
+    
         <section id="profile-main">
             <div class="admin-data-container">
                 <span> <h1>
@@ -34,11 +43,11 @@
                 </span>
                 <img id="avata" src="./img/avata.JPG" alt="image of an avata">
             </div>
-            <div>
+            <div class="table-case" >
               <h3> order history</h3>
                  <table class="table">
                      <tr>
-                         <th> meal ordered</th>
+                          <th> meal ordered</th>
                         <th> combination </th>
                          <th>quantity</th>
                          <th>price</th>
@@ -117,6 +126,6 @@
                 </div>
             
             </footer>
-    <script src="./js/script.js"></script>
+  <script src="./js/script.js"></script>
       </body>
 </html>
