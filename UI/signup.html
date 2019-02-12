@@ -10,14 +10,28 @@
     <title>LIZLO meal booking online | sign up</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body> 
+<body id="sign-up-body"> 
+        <header>
+                <div>
+                    <nav class="navbar">
+                        <span class="navbar-toggle js-navbar-toggle">
+                            <img   src="./img/menu.png" class="fas fa-bars"> 
+                        </span>
+                        <a href="home.html" class="logo"><span id="logo-first-word"> LIZLO</span></a>
+                        <ul class="main-nav js-menu" >      
+                            <li><a href="home.html" class="nav-links current ">Home</a></li>    
+                            <li><a href="signup.html" class="nav-links">Sign up</a></li> 
+                            <li><a href="profile.html" class=" nav-links">profile</a></li>
+                            <li> <a href="index.html" class="nav-links">Logout</a></li>
+                            <li> <a href="Admin.html" class="nav-links">Admin</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>    
     <section class="form-main " id="form-container">
         <div class="allforms-bg" animations>
-            <span id="form-cancel-btn">
-                <button title="click to close form">&times;</button>
-            </span>
+          
             <div  class="container form-case">
-        
                 <h2>sign up</h2>
                 <form action="home.html">
                     <input type="text" placeholder="username">     
@@ -27,8 +41,26 @@
                     <input type="submit" value="gain access">    
                 </form>
             </div>
-        </div>    
+        </div> 
+           
     </section>
-    <script src="./js/script.js"></script>
+    <footer>
+            <div >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur beatae doloribus illo animi voluptas
+                     quo labore repellendus unde modi dignissimos minus vitae cumque magnam veniam, quae rerum et exercitationem aliquam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum maxime consequuntur id odio 
+                    natus reiciendis, iusto deserunt maiores totam veniam voluptatem culpa quas earum error delectus ex minima laudantium sapiente.</p>
+                <ul>
+                    <li> <a href="about.html"> About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    </ul>
+            </div>
+            <div>
+                <h3><span id="logo-first-word"> lizlo</span> meals</h3>
+                <span> copy write &#169 2019. all rights reserved.</span>
+            </div>
+        
+        </footer>
+        <script src="./js/script.js"></script>    
     </body>
 </html>

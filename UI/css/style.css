@@ -77,8 +77,6 @@ input[type="submit"]{
 
 
     /* header */
-    
-
     .navbar{
     font-size: 18px;
       background: #05164d;
@@ -108,7 +106,7 @@ input[type="submit"]{
 .main-nav li {
     text-align: left;
     margin: 15px auto;
-    padding-left: 12px;
+    padding-left: 10px;
 }
 
 .main-nav li a {
@@ -248,7 +246,7 @@ input[type="submit"]{
    #main-order-case .process-case:hover {
     transition: all .2s ease-in-out;
      transform: scale(1.0); 
-     border: 2px solid #da3743;
+     /* border: 2px solid #da3743; */
      content: attr(title);
     }
     /*  why us styles */
@@ -318,8 +316,7 @@ input[type="submit"]{
         display: none;
         position: fixed; 
         z-index: 1; 
-        left: 0;
-        top: 5px;
+        top: 80px;
         width: 80%; 
         text-align: center;
     }
@@ -327,6 +324,10 @@ input[type="submit"]{
 section.form-main {
     position: relative;
     top: 20px;
+}
+
+#sign-up-body{
+    background-image: url("../img/showcase.jpg")
 }
 /* -------------------------------------------------------
   MODAL BOX
@@ -436,7 +437,7 @@ content: attr(title);
 
 
 span#form-cancel-btn{
-    margin-left: 80%;
+    margin-left: 30%;
     width: 100%;
 }
 .animations {
