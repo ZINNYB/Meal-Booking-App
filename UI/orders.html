@@ -12,17 +12,22 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <a href="#" class="logo"> <span id="logo-first-word"> LIZLO</span> MEALS</a> 
-            <ul>
-                 <li><a href="home.html" >Home</a></li>
-                <li> <a href="about.html"> About</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="profile.html">My profile</a></li>
-                <li><a href="admin.html" class="current">Admin</a></li>
-            </ul>
-        </div>
-    </header>
+         <div>
+            <nav class="navbar">
+                <span class="navbar-toggle js-navbar-toggle">
+                    <img   src="./img/menu.png" class="fas fa-bars"> 
+                </span>
+                <a href="home.html" class="logo"><span id="logo-first-word"> LIZLO</span></a>
+                <ul class="main-nav js-menu" >   
+                     <li><a href="home.html" class="nav-links  ">Home</a></li>   
+                    <li><a href="signup.html" class="nav-links ">Sign up</a></li> 
+                    <li><a href="profile.html" class="nav-links ">profile</a></li>
+                    <li> <a href="index.html" class="nav-links">Logout</a></li>
+                     <li> <a href="Admin.html" class="nav-links current">Admin</a></li>
+                </ul>
+             </nav>
+         </div>
+            </header>   
        <section id="side-menu">
         <ul>
             <a href="#" ><li>menu setup</li></a> 
@@ -39,7 +44,7 @@
                 </span>
                 <img id="avata" src="./img/avata.JPG" alt="image of an avata">
             </div>
-            <div>
+            <div class="table-case">
               <h3> 4th february</h3>
                  <table class="table">
                      <tr>
