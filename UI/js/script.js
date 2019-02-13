@@ -1,7 +1,10 @@
 const form = document.getElementById('details-case');
 const btn = document.getElementById('form-cancel-btn');
 const mealCase = document.querySelectorAll('.process-case');
+
+
 const formCase =document.getElementsByClassName('allforms-bg')[0];
+
   /* Navigation bar */
  const mainNav = document.querySelector('.js-menu');
   const navBarToggle = document.querySelector('.js-navbar-toggle');
@@ -9,6 +12,7 @@ const formCase =document.getElementsByClassName('allforms-bg')[0];
   const toggleMenu =  () =>{
     mainNav.classList.toggle('active');
   }
+
     //  my modal box
 for (let i = 0; i < mealCase.length; i++) {
     mealCase[i].addEventListener('click', ()=>{
@@ -36,6 +40,8 @@ window.addEventListener('click', closeForm);
 if (btn) {
   btn. addEventListener("click",  closeBtn);
 }
+
+
     /* Modal Box */
 const modalBox = function(modalBox, btnModalBoxOpen, btnModalBoxClose) {
 
@@ -53,6 +59,7 @@ const modalBox = function(modalBox, btnModalBoxOpen, btnModalBoxClose) {
     });
   }
 }
+
 const loginFormWrapper = document.getElementById('login-form-wrapper');
 const loginOpen = document.getElementById('login-open');
 const loginClose = document.getElementById('login-close');
