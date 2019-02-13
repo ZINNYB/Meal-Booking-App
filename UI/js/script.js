@@ -2,7 +2,6 @@ const form = document.getElementById('details-case');
 const btn = document.getElementById('form-cancel-btn');
 const mealCase = document.querySelectorAll('.process-case');
 const formCase =document.getElementsByClassName('allforms-bg')[0];
-
   /* Navigation bar */
  const mainNav = document.querySelector('.js-menu');
   const navBarToggle = document.querySelector('.js-navbar-toggle');

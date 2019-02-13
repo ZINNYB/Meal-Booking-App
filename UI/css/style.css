@@ -56,7 +56,6 @@ input[type="submit"]{
     background: #da3743 ;
     color: white;
 }
-    
     /*  general styles */
     .container{
         width: 80%;
@@ -78,7 +77,6 @@ input[type="submit"]{
         border-bottom: 3px solid #627295;
         text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
     }
-    
     /* header */
     .navbar{
     font-size: 18px;
@@ -148,9 +146,7 @@ input[type="submit"]{
         padding-bottom: 0;
         height: 70px;
         align-items: center;
-    }
-
-    
+    }    
     .current{
     color: #da3743;
     }
@@ -182,10 +178,9 @@ input[type="submit"]{
         color: rgba(255, 255, 255, 1);
         
     }
-  
 }
     
-    /* showcase */
+/* showcase */
     #showcase{
         min-height: 400px;
         background: url("../img/showcase.jpg") no-repeat;
@@ -213,15 +208,13 @@ input[type="submit"]{
     .processing-case {
        display: flex;
         justify-content: space-around;
-    
     }  
-    
+
     .processing-case .process-case {
         width: 30%;
         height: 10%;
         padding-top: 5%;
     }
-    
     .processing-case .process-case img{
         width: 100%;
         height: 10%;
@@ -241,8 +234,7 @@ input[type="submit"]{
         width: 100%;
         height: 10%;
         padding-top: 5%;
-    } 
-        
+    }        
     }
    #main-order-case .process-case:hover {
     transition: all .2s ease-in-out;
@@ -412,12 +404,10 @@ section.form-main {
     background: url("../img/showcase.jpg") no-repeat;
     text-align: center;
 }
-
 .container.form-case {
     height: 100%;
     width: 40%;
-    background-color: rgba(0, 0, 0, .5)
-
+    background-color: rgba(0, 0, 0, .5);
 }
 #form-cancel-btn button:hover{
 content: attr(title);
@@ -426,7 +416,6 @@ content: attr(title);
     background: #05164d ;
     color: white;
 }
-
 @media screen and (max-width: 700px) {
     .container.form-case {
         width: 90%;
@@ -435,8 +424,6 @@ content: attr(title);
         margin-bottom :30px;
     }
 }
-
-
 span#form-cancel-btn{
     margin-left: 30%;
     width: 100%;
@@ -515,7 +502,7 @@ span#form-cancel-btn{
     .offfice-title{
         text-transform: uppercase;
         font-weight: bold;
-    }  
+    }
     button#admin-btn {
         margin-top: 15px;
     }
@@ -573,23 +560,19 @@ div#acc-info {
      #side-menu{
       width: 100%;
     }
-    
     }
 /* === profile ===*/
 #profile-main{
     text-align: center;
 }
-    /* =====footer ====*/
+ /* =====footer ====*/
    
     footer{
-       
         background-color: #05164d;
         color: white;
         padding: 20px;
-        text-align: center;
-       
+        text-align: center;  
     }
-    
     footer a{
         text-decoration: none;
         color: white;
