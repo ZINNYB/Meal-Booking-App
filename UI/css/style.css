@@ -56,7 +56,6 @@ input[type="submit"]{
     background: #da3743 ;
     color: white;
 }
-    
     /*  general styles */
     .container{
         width: 80%;
@@ -134,9 +133,12 @@ input[type="submit"]{
     color: rgba(255, 255, 255, 0.8);
     font-size: 24px;
 }
+
 .active {
     display: block;
 }
+
+
 @media screen and (min-width: 768px) {
     .navbar {
         display: flex;
@@ -144,9 +146,7 @@ input[type="submit"]{
         padding-bottom: 0;
         height: 70px;
         align-items: center;
-    }
-
-    
+    }    
     .current{
     color: #da3743;
     }
@@ -177,9 +177,10 @@ input[type="submit"]{
     .nav-links:hover {
         color: rgba(255, 255, 255, 1);
         
-    } 
+    }
 }
-    /* showcase */
+    
+/* showcase */
     #showcase{
         min-height: 400px;
         background: url("../img/showcase.jpg") no-repeat;
@@ -207,17 +208,13 @@ input[type="submit"]{
     .processing-case {
        display: flex;
         justify-content: space-around;
-    
     }  
-    
+
     .processing-case .process-case {
         width: 30%;
         height: 10%;
         padding-top: 5%;
     }
-    
-    
-    
     .processing-case .process-case img{
         width: 100%;
         height: 10%;
@@ -237,8 +234,7 @@ input[type="submit"]{
         width: 100%;
         height: 10%;
         padding-top: 5%;
-    } 
-        
+    }        
     }
    #main-order-case .process-case:hover {
     transition: all .2s ease-in-out;
@@ -408,12 +404,10 @@ section.form-main {
     background: url("../img/showcase.jpg") no-repeat;
     text-align: center;
 }
-
 .container.form-case {
     height: 100%;
     width: 40%;
-    background-color: rgba(0, 0, 0, .5)
-
+    background-color: rgba(0, 0, 0, .5);
 }
 #form-cancel-btn button:hover{
 content: attr(title);
@@ -422,7 +416,6 @@ content: attr(title);
     background: #05164d ;
     color: white;
 }
-
 @media screen and (max-width: 700px) {
     .container.form-case {
         width: 90%;
@@ -431,8 +424,6 @@ content: attr(title);
         margin-bottom :30px;
     }
 }
-
-
 span#form-cancel-btn{
     margin-left: 30%;
     width: 100%;
@@ -575,11 +566,12 @@ div#acc-info {
     text-align: center;
 }
  /* =====footer ====*/
+   
     footer{
         background-color: #05164d;
         color: white;
         padding: 20px;
-        text-align: center;
+        text-align: center;  
     }
     footer a{
         text-decoration: none;
