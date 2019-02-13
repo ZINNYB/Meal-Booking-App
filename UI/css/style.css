@@ -79,8 +79,6 @@ input[type="submit"]{
         text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
     }
     
-
-
     /* header */
     .navbar{
     font-size: 18px;
@@ -223,8 +221,6 @@ input[type="submit"]{
         height: 10%;
         padding-top: 5%;
     }
-    
-    
     
     .processing-case .process-case img{
         width: 100%;
@@ -519,10 +515,7 @@ span#form-cancel-btn{
     .offfice-title{
         text-transform: uppercase;
         font-weight: bold;
-    }
-    
-    
-   
+    }  
     button#admin-btn {
         margin-top: 15px;
     }
@@ -553,8 +546,6 @@ border:  2px solid gray;
 div#acc-info {
     margin-top: 15px;
 }
-
-
  @media screen and (max-width: 360px), (min-device-width:900px) and (max-device-width:1024px) {
     table{
         width: 60%;
